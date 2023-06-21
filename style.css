@@ -1,0 +1,163 @@
+/* Default Styles */
+
+body {
+    background-color: #006400;
+    overflow: hidden;
+       font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+canvas {
+    margin: 2rem auto;
+    display: flex;
+}
+
+button {
+    position: relative;
+    /* bottom: 350px;
+    left: 130px;
+    height: 70px;
+    width: 220px;
+    font-size: 30px; */
+    bottom: 30px;
+    left: 25px;
+    font-size: 24px;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgb(111, 123, 111);
+    color: #fff;
+    box-shadow: 1px 3px 4px 2px black;
+    
+}
+
+button:hover {
+    background-color: #FF00FF;
+    color: #FFFF00; /* Yellow */
+    transition: ease 0.3s;
+}
+
+.click-here {
+    position: relative;
+    bottom: 420px;
+    font-size: 28px;
+    right: 110px;
+    color: black;
+    text-shadow: 1px 1px #4f882e;
+}
+
+.enter {
+    position: relative;
+    bottom: 160px;
+    font-size: 28px;
+    right: 370px;
+    color: black;
+    text-shadow: 1px 1px #4f882e;
+}
+
+/* Media Queries */
+
+/* Laptop Styles */
+@media (max-width: 1024px) {
+    body {
+        /* Update background color and other styles for laptop */
+        background-color: #006400;
+    }
+
+    button {
+        /* Update button styles for laptop */
+        bottom: 30px;
+        left: 25px;
+        font-size: 24px;
+        height: 60px;
+        width: 200px;
+    }
+
+    .click-here {
+        /* Update positioning for laptop */
+        bottom: 320px;
+        right: 80px;
+    }
+
+    .enter {
+        /* Update positioning for laptop */
+        bottom: 120px;
+        right: 270px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    body {
+        /* Update background color and other styles for mobile */
+        background-color: #006400;
+    }
+
+    button {
+        /* Update button styles for mobile */
+        /* bottom: 150px;
+        left: 30px;
+        font-size: 20px;
+        height: 50px;
+        width: 180px; */
+        bottom: 30px;
+        left: 25px;
+        font-size: 24px;
+        height: 60px;
+        width: 200px;
+    }
+
+    .click-here {
+        /* Update positioning for mobile */
+        bottom: 220px;
+        right: 40px;
+        font-size: 18px;
+    }
+
+    .enter {
+        /* Update positioning for mobile */
+        bottom: 100px;
+        right: 160px;
+        font-size: 18px;
+    }
+}
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+    body {
+        /* Update background color and other styles for tablet */
+        background-color: #006400;
+    }
+
+    button {
+        /* Update button styles for tablet */
+        /* bottom: 300px;
+        left: 100px;
+        font-size: 28px;
+        height: 60px;
+        width: 200px; */
+        bottom: 30px;
+        left: 25px;
+        font-size: 24px;
+        height: 60px;
+        width: 200px;
+    }
+
+    .click-here {
+        /* Update positioning for tablet */
+        bottom: 370px;
+        right: 110px;
+    }
+
+    .enter {
+        /* Update positioning for tablet */
+        bottom: 170px;
+        right: 320px;
+    }
+}
